@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock & Factorial Calculator</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="intern1.css">
+</head>
+<body>
+    
+    <div class="clock" id="clock">
+    </div>
+
+
+    <div class="factorial-calculator">
+        <h2>Factorial Calculator</h2>
+        <input type="number" id="numberInput" placeholder="Enter a positive integer">
+        <button onclick="calculateFactorial('iterative')">Calculate Iteratively</button>
+        <button onclick="calculateFactorial('recursive')">Calculate Recursively</button>
+        <div class="output" id="output"></div>
+    </div>
+    <div id="image">
+    <img class="image"src="https://media.istockphoto.com/id/2189547133/photo/3d-simple-yellow-round-wall-clock-5-30-five-thirty-half-past-5-on-yellow-background-3d.jpg?s=612x612&w=0&k=20&c=jtNseOR9ADut5S9s9SMPiZi02QopjPqA-j3MDYTVreM=" alt="">
+</div>
+
+    <script src="intern.js"></script>
+</body>
+</html>
