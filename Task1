@@ -1,0 +1,13 @@
+Goal: Create a digital clock app that shows the current time and updates every second.
+
+
+Structure:
+      -User Interface: Design a simple and user-friendly web interface where users can input a number and calculate its factorial using both iterative and recursive methods.
+      -Input Validation: Implement checks to ensure the user enters a valid positive integer.
+      -Output: Display the calculated factorial value, and the method used (iterative or recursive).
+      -Backend (Optional): Use server-side technologies to handle the calculations if necessary, or simply handle the logic on the client side.
+
+Technologies:
+      -HTML: For creating the structure of the web page.
+      -CSS: For styling the page and making it visually appealing and responsive.
+      -JavaScript: For implementing the factorial calculation logic (both iterative and recursive methods).
