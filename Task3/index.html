@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Whiteboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+     <div id="title">
+    <h2>Collaborative Whiteboard</h2>
+</div>
+    <div class="toolbar">
+        <button  onclick="setTool('pen')">Pen</button>
+        <button onclick="setTool('eraser')">Eraser</button>
+        <input type="color" id="colorPicker" onchange="setColor(this.value)">
+        <button onclick="clearCanvas()">Clear</button>
+    </div>
+    <canvas id="whiteboard"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"></script>
+    <script src="script.js"></script>
+</div>
+
+
+</body>
+</html>

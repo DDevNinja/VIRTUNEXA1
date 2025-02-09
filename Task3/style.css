@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+html,body{
+    height:100%;
+    width:100%;
+    
+}
+#main{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+}
+#title{
+    opacity: 1;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left:20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border:solid 1px #111;
+    color:rgb(28, 27, 27);
+    font-family:sans-serif;
+    background-color: beige;
+}
+.toolbar {
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+canvas {
+    border: 1px solid white;
+    cursor: crosshair;
+    background-color: white;
+    border: solid black;
+    border-radius: 3%;
+    display: block;
+    margin: 0 auto;
+}
+
+
