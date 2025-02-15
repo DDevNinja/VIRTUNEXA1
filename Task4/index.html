@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Project Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DIY Project Hub</h1>
+        <p>Share and Explore Creative DIY Projects</p>
+    </header>
+    
+    <main>
+        <section id="project-form">
+            <h2>Share Your Project</h2>
+            <input type="text" id="project-title" placeholder="Project Title" required>
+            <textarea id="project-description" placeholder="Describe your project..." required></textarea>
+            <input type="url" id="project-image" placeholder="Image URL" required>
+            <button onclick="addProject()">Submit Project</button>
+            <p id="error-message" class="error"></p>
+        </section>
+        
+        <section id="projects">
+            <h2>Community Projects</h2>
+            <div id="project-list"></div>
+        </section>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
